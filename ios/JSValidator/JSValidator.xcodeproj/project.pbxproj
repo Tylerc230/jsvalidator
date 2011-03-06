@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709D7AED132434C600FBF9C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D7AEC132434C600FBF9C1 /* UIKit.framework */; };
+		709D7AEF132434C600FBF9C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D7AEE132434C600FBF9C1 /* Foundation.framework */; };
+		709D7AF1132434C600FBF9C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D7AF0132434C600FBF9C1 /* CoreGraphics.framework */; };
+		709D7AF7132434C600FBF9C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709D7AF5132434C600FBF9C1 /* InfoPlist.strings */; };
+		709D7AFA132434C600FBF9C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D7AF9132434C600FBF9C1 /* main.m */; };
+		709D7AFD132434C700FBF9C1 /* JSValidatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D7AFC132434C700FBF9C1 /* JSValidatorAppDelegate.m */; };
+		709D7B00132434C700FBF9C1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709D7AFE132434C700FBF9C1 /* MainWindow.xib */; };
+		709D7B03132434C700FBF9C1 /* JSValidatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D7B02132434C700FBF9C1 /* JSValidatorViewController.m */; };
+		709D7B06132434C700FBF9C1 /* JSValidatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709D7B04132434C700FBF9C1 /* JSValidatorViewController.xib */; };
+		709D7B0D132434C700FBF9C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D7AEC132434C600FBF9C1 /* UIKit.framework */; };
+		709D7B0E132434C700FBF9C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D7AEE132434C600FBF9C1 /* Foundation.framework */; };
+		709D7B0F132434C700FBF9C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709D7AF0132434C600FBF9C1 /* CoreGraphics.framework */; };
+		709D7B17132434C700FBF9C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709D7B15132434C700FBF9C1 /* InfoPlist.strings */; };
+		709D7B1A132434C700FBF9C1 /* JSValidatorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 709D7B19132434C700FBF9C1 /* JSValidatorTests.h */; };
+		709D7B1C132434C700FBF9C1 /* JSValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D7B1B132434C700FBF9C1 /* JSValidatorTests.m */; };
+		709D7B281324352700FBF9C1 /* JSValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 709D7B271324352700FBF9C1 /* JSValidator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		709D7B10132434C700FBF9C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 709D7ADF132434C500FBF9C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709D7AE7132434C600FBF9C1;
+			remoteInfo = JSValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		709D7AE8132434C600FBF9C1 /* JSValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		709D7AEC132434C600FBF9C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		709D7AEE132434C600FBF9C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		709D7AF0132434C600FBF9C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		709D7AF4132434C600FBF9C1 /* JSValidator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSValidator-Info.plist"; sourceTree = "<group>"; };
+		709D7AF6132434C600FBF9C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		709D7AF8132434C600FBF9C1 /* JSValidator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSValidator-Prefix.pch"; sourceTree = "<group>"; };
+		709D7AF9132434C600FBF9C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		709D7AFB132434C600FBF9C1 /* JSValidatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSValidatorAppDelegate.h; sourceTree = "<group>"; };
+		709D7AFC132434C700FBF9C1 /* JSValidatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSValidatorAppDelegate.m; sourceTree = "<group>"; };
+		709D7AFF132434C700FBF9C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		709D7B01132434C700FBF9C1 /* JSValidatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSValidatorViewController.h; sourceTree = "<group>"; };
+		709D7B02132434C700FBF9C1 /* JSValidatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSValidatorViewController.m; sourceTree = "<group>"; };
+		709D7B05132434C700FBF9C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JSValidatorViewController.xib; sourceTree = "<group>"; };
+		709D7B0C132434C700FBF9C1 /* JSValidatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSValidatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		709D7B14132434C700FBF9C1 /* JSValidatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSValidatorTests-Info.plist"; sourceTree = "<group>"; };
+		709D7B16132434C700FBF9C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		709D7B18132434C700FBF9C1 /* JSValidatorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSValidatorTests-Prefix.pch"; sourceTree = "<group>"; };
+		709D7B19132434C700FBF9C1 /* JSValidatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSValidatorTests.h; sourceTree = "<group>"; };
+		709D7B1B132434C700FBF9C1 /* JSValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSValidatorTests.m; sourceTree = "<group>"; };
+		709D7B261324352700FBF9C1 /* JSValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSValidator.h; path = JSValidator/JSValidator.h; sourceTree = "<group>"; };
+		709D7B271324352700FBF9C1 /* JSValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSValidator.m; path = JSValidator/JSValidator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709D7AE5132434C600FBF9C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D7AED132434C600FBF9C1 /* UIKit.framework in Frameworks */,
+				709D7AEF132434C600FBF9C1 /* Foundation.framework in Frameworks */,
+				709D7AF1132434C600FBF9C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709D7B08132434C700FBF9C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D7B0D132434C700FBF9C1 /* UIKit.framework in Frameworks */,
+				709D7B0E132434C700FBF9C1 /* Foundation.framework in Frameworks */,
+				709D7B0F132434C700FBF9C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		709D7ADD132434C500FBF9C1 = {
+			isa = PBXGroup;
+			children = (
+				709D7AF2132434C600FBF9C1 /* JSValidator */,
+				709D7B12132434C700FBF9C1 /* JSValidatorTests */,
+				709D7AEB132434C600FBF9C1 /* Frameworks */,
+				709D7AE9132434C600FBF9C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		709D7AE9132434C600FBF9C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709D7AE8132434C600FBF9C1 /* JSValidator.app */,
+				709D7B0C132434C700FBF9C1 /* JSValidatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709D7AEB132434C600FBF9C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				709D7AEC132434C600FBF9C1 /* UIKit.framework */,
+				709D7AEE132434C600FBF9C1 /* Foundation.framework */,
+				709D7AF0132434C600FBF9C1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		709D7AF2132434C600FBF9C1 /* JSValidator */ = {
+			isa = PBXGroup;
+			children = (
+				709D7B25132434F600FBF9C1 /* New Group */,
+				709D7AFB132434C600FBF9C1 /* JSValidatorAppDelegate.h */,
+				709D7AFC132434C700FBF9C1 /* JSValidatorAppDelegate.m */,
+				709D7AFE132434C700FBF9C1 /* MainWindow.xib */,
+				709D7B01132434C700FBF9C1 /* JSValidatorViewController.h */,
+				709D7B02132434C700FBF9C1 /* JSValidatorViewController.m */,
+				709D7B04132434C700FBF9C1 /* JSValidatorViewController.xib */,
+				709D7AF3132434C600FBF9C1 /* Supporting Files */,
+			);
+			path = JSValidator;
+			sourceTree = "<group>";
+		};
+		709D7AF3132434C600FBF9C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				709D7AF4132434C600FBF9C1 /* JSValidator-Info.plist */,
+				709D7AF5132434C600FBF9C1 /* InfoPlist.strings */,
+				709D7AF8132434C600FBF9C1 /* JSValidator-Prefix.pch */,
+				709D7AF9132434C600FBF9C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		709D7B12132434C700FBF9C1 /* JSValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				709D7B19132434C700FBF9C1 /* JSValidatorTests.h */,
+				709D7B1B132434C700FBF9C1 /* JSValidatorTests.m */,
+				709D7B13132434C700FBF9C1 /* Supporting Files */,
+			);
+			path = JSValidatorTests;
+			sourceTree = "<group>";
+		};
+		709D7B13132434C700FBF9C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				709D7B14132434C700FBF9C1 /* JSValidatorTests-Info.plist */,
+				709D7B15132434C700FBF9C1 /* InfoPlist.strings */,
+				709D7B18132434C700FBF9C1 /* JSValidatorTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		709D7B25132434F600FBF9C1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				709D7B261324352700FBF9C1 /* JSValidator.h */,
+				709D7B271324352700FBF9C1 /* JSValidator.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709D7AE7132434C600FBF9C1 /* JSValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709D7B1F132434C700FBF9C1 /* Build configuration list for PBXNativeTarget "JSValidator" */;
+			buildPhases = (
+				709D7AE4132434C600FBF9C1 /* Sources */,
+				709D7AE5132434C600FBF9C1 /* Frameworks */,
+				709D7AE6132434C600FBF9C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSValidator;
+			productName = JSValidator;
+			productReference = 709D7AE8132434C600FBF9C1 /* JSValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		709D7B0B132434C700FBF9C1 /* JSValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709D7B22132434C700FBF9C1 /* Build configuration list for PBXNativeTarget "JSValidatorTests" */;
+			buildPhases = (
+				709D7B07132434C700FBF9C1 /* Sources */,
+				709D7B08132434C700FBF9C1 /* Frameworks */,
+				709D7B09132434C700FBF9C1 /* Resources */,
+				709D7B0A132434C700FBF9C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709D7B11132434C700FBF9C1 /* PBXTargetDependency */,
+			);
+			name = JSValidatorTests;
+			productName = JSValidatorTests;
+			productReference = 709D7B0C132434C700FBF9C1 /* JSValidatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709D7ADF132434C500FBF9C1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 709D7AE2132434C500FBF9C1 /* Build configuration list for PBXProject "JSValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 709D7ADD132434C500FBF9C1;
+			productRefGroup = 709D7AE9132434C600FBF9C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709D7AE7132434C600FBF9C1 /* JSValidator */,
+				709D7B0B132434C700FBF9C1 /* JSValidatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709D7AE6132434C600FBF9C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D7AF7132434C600FBF9C1 /* InfoPlist.strings in Resources */,
+				709D7B00132434C700FBF9C1 /* MainWindow.xib in Resources */,
+				709D7B06132434C700FBF9C1 /* JSValidatorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709D7B09132434C700FBF9C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D7B17132434C700FBF9C1 /* InfoPlist.strings in Resources */,
+				709D7B1A132434C700FBF9C1 /* JSValidatorTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		709D7B0A132434C700FBF9C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709D7AE4132434C600FBF9C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D7AFA132434C600FBF9C1 /* main.m in Sources */,
+				709D7AFD132434C700FBF9C1 /* JSValidatorAppDelegate.m in Sources */,
+				709D7B03132434C700FBF9C1 /* JSValidatorViewController.m in Sources */,
+				709D7B281324352700FBF9C1 /* JSValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709D7B07132434C700FBF9C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709D7B1C132434C700FBF9C1 /* JSValidatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		709D7B11132434C700FBF9C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 709D7AE7132434C600FBF9C1 /* JSValidator */;
+			targetProxy = 709D7B10132434C700FBF9C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		709D7AF5132434C600FBF9C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709D7AF6132434C600FBF9C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		709D7AFE132434C700FBF9C1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709D7AFF132434C700FBF9C1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		709D7B04132434C700FBF9C1 /* JSValidatorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709D7B05132434C700FBF9C1 /* en */,
+			);
+			name = JSValidatorViewController.xib;
+			sourceTree = "<group>";
+		};
+		709D7B15132434C700FBF9C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709D7B16132434C700FBF9C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		709D7B1D132434C700FBF9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		709D7B1E132434C700FBF9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		709D7B20132434C700FBF9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSValidator/JSValidator-Prefix.pch";
+				INFOPLIST_FILE = "JSValidator/JSValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		709D7B21132434C700FBF9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSValidator/JSValidator-Prefix.pch";
+				INFOPLIST_FILE = "JSValidator/JSValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		709D7B23132434C700FBF9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSValidator.app/JSValidator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSValidatorTests/JSValidatorTests-Prefix.pch";
+				INFOPLIST_FILE = "JSValidatorTests/JSValidatorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		709D7B24132434C700FBF9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSValidator.app/JSValidator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSValidatorTests/JSValidatorTests-Prefix.pch";
+				INFOPLIST_FILE = "JSValidatorTests/JSValidatorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709D7AE2132434C500FBF9C1 /* Build configuration list for PBXProject "JSValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709D7B1D132434C700FBF9C1 /* Debug */,
+				709D7B1E132434C700FBF9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709D7B1F132434C700FBF9C1 /* Build configuration list for PBXNativeTarget "JSValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709D7B20132434C700FBF9C1 /* Debug */,
+				709D7B21132434C700FBF9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		709D7B22132434C700FBF9C1 /* Build configuration list for PBXNativeTarget "JSValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709D7B23132434C700FBF9C1 /* Debug */,
+				709D7B24132434C700FBF9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709D7ADF132434C500FBF9C1 /* Project object */;
+}

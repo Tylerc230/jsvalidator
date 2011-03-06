@@ -5,6 +5,14 @@
 		<param>firstParam</param>
 		<param>secondParam</param>
 	</params>
-	<script>retVal = firstParam + secondParam</script>
+	<script>retVal = firstParam + secondParam;</script>
+	</row>
+	<row>
+	<id>2</id>
+	<params>
+		<param>firstParam</param>
+		<param>secondParam</param>
+	</params>
+	<script>retVal = 5;</script>
 	</row>
 </scripts>
