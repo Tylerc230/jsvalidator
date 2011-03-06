@@ -1,0 +1,10 @@
+<scripts>
+	<row>
+	<id>1</id>
+	<params>
+		<param>firstParam</param>
+		<param>secondParam</param>
+	</params>
+	<script>retVal = firstParam + secondParam</script>
+	</row>
+</scripts>
