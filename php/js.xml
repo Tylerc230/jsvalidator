@@ -13,6 +13,14 @@
 		<param>firstParam</param>
 		<param>secondParam</param>
 	</params>
-	<script>retVal = 5;</script>
+	<script>retVal = firstParam * secondParam;</script>
+	</row>
+	<row>
+	<id>3</id>
+	<params>
+		<param>firstParam</param>
+		<param>secondParam</param>
+	</params>
+	<script>retVal = firstParam / secondParam;</script>
 	</row>
 </scripts>

@@ -32,7 +32,15 @@
     [super viewDidLoad];
 	validator_ = [[JSValidator alloc] init];
 	[validator_ setXMLURL:@"http://localhost/jsvalidator/php/js.xml"];
-	[validator_ executeScript:@"1", @"3", @"4", nil];
+	NSArray * jsIds = [NSArray arrayWithObjects:@"1", @"2", @"3", nil];
+	NSString * output = @"";
+	for (NSString * jsId in jsIds) {
+		NSString * result = [validator_ executeScript:jsId, @"3", @"4", nil];
+		output = [NSString stringWithFormat:@"%@ Script #: %@ result: %@\n", output, jsId, result];
+	}
+	output_.text = output;
+	
+
 }
 
 

@@ -9,11 +9,16 @@
 #import "JSValidator.h"
 
 @interface JSValidator ()
-- (NSString*)createHTMLForId:(NSString*)jsId, ...;
+- (NSString*)createHTMLForId:(NSString*)jsId, va_list args;
 @end
 
 @implementation JSValidator
 
+
+/**
+ * Downloads the xml containing the javascript 
+ * @param url the location of the script xml
+ */
 - (void)setXMLURL:(NSString*)url
 {	
 
@@ -21,6 +26,13 @@
 	[parser setDelegate:self];
 	[parser parse];
 }
+
+/**
+ * Executes the appropriate script based on id, returning the results
+ * @param jsId id of the script
+ * @param ... variable length args passed to the script
+ * @return the value returned by the script
+ */
 
 - (id)executeScript:(NSString*)jsId, ...
 {
@@ -32,11 +44,15 @@
 	NSString * retVal = [webView_ stringByEvaluatingJavaScriptFromString:html];
 	return retVal;
 }
-	 
-- (NSString*)createHTMLForId:(NSString*)jsId, ...
+/**
+ * Grabs the appropriate java script snipette based on id and
+ * supplies the appropriate parameters
+ * @param jsId id to identify the script
+ * @param args variable args passed to the code snipette as parameters
+ */
+- (NSString*)createHTMLForId:(NSString*)jsId, va_list args
 {
-	va_list args;
-	va_start(args, jsId);
+
 	NSDictionary * script = [scripts_ objectForKey:jsId];
 	NSArray * paramNames = [script objectForKey:@"params"];
 	NSString * params = [NSString string];

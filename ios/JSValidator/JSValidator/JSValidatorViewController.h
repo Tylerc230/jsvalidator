@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "JSValidator.h"
 @interface JSValidatorViewController : UIViewController {
+	IBOutlet UITextView * output_;
 	JSValidator * validator_;
 }
 
