@@ -1,6 +1,6 @@
 <scripts>
 	<row>
-	<id>1</id>
+	<id>add</id>
 	<params>
 		<param>firstParam</param>
 		<param>secondParam</param>
@@ -8,7 +8,7 @@
 	<script>retVal = firstParam + secondParam;</script>
 	</row>
 	<row>
-	<id>2</id>
+	<id>multi</id>
 	<params>
 		<param>firstParam</param>
 		<param>secondParam</param>
@@ -16,11 +16,27 @@
 	<script>retVal = firstParam * secondParam;</script>
 	</row>
 	<row>
-	<id>3</id>
+	<id>div</id>
 	<params>
 		<param>firstParam</param>
 		<param>secondParam</param>
 	</params>
 	<script>retVal = firstParam / secondParam;</script>
+	</row>
+	<row>
+	<id>sumArr</id>
+	<params>
+		<param>myArray</param>
+	</params>
+	<script>
+	var sum = 0;
+	myArray = [4, 7];
+	var len = myArray.length;
+	for(i = 0; i &lt; len; i++)
+	{
+		sum += myArray[i];
+	}
+	retVal = sum;
+	</script>
 	</row>
 </scripts>

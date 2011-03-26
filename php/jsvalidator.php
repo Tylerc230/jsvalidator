@@ -16,7 +16,7 @@ class JSValidator
 			foreach($xml->row as $scriptRow)
 			{
 				$script = array();
-				$jsId = (int)$scriptRow->id;
+				$jsId = (string)$scriptRow->id;
 				$script["id"] = $jsId;
 				$script["script"] = (string)$scriptRow->script;
 				$script["params"] = $this->parseParams($scriptRow->params);
