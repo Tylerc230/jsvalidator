@@ -1,4 +1,5 @@
 ##JSValidator Tech Spec
+ATTENTION: This technology has been submitted to the US Patent office by Zynga inc.
 ###Abstract
 
 JSValidator allows logic to be shared, at run time, between a mobile client and a php server. The same logic can be executed concurrently on the client and the server without duplicating code in each’s respective languages. This allows the client to update the UI immediately, based on user interactions, while allowing the server to validate those user interactions server side.
